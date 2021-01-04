@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/style.css">
+   
+    <title>Conifere</title>
+    
+</head>
+<body>
+<section id="werkstatt" class="grid">
+
+    <header id="unterseite" class="grid2">    
+        <a class="logo" href="index.html"><img src="img/logo.svg" alt="Logo"></a>
+         <nav>
+             <ul>
+                 <li><a href="">Über uns</a></li>
+                 <li class="current"><a href="werkstatt.html">Werkstatt</a></li>
+                 <li ><a href="showroom.html">Showroom</a></li>
+                 <li><a href="">Partner</a></li>
+                
+             </ul>
+         </nav>
+     
+         <a class="home" href="index.html"><img src="img/Haus.svg" alt="Home"></a>
+     
+         </header>
+
+  <section id="swiper" >
+
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" style="background-image:url(img/w-1.png)"></div>
+          <div class="swiper-slide" style="background-image:url(img/w-2.png)"></div>
+          <div class="swiper-slide" style="background-image:url(img/w-3.png)"></div>
+          <div class="swiper-slide" style="background-image:url(img/w-4.png)"></div>
+          <div class="swiper-slide" style="background-image:url(img/w-5.png)"></div>
+          
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+<div class="ws-text">
+    <p>Begeben Sie sich einfach auf die Fotostrecke <br> und gewinnen Sie einen ersten Eindruck über unsere Arbeitsweise.</p>
+    <h2>Ohne Worte. </h2>
+</div>
+</section>
+
+    <script  src="js/swiper.min.js"></script>
+    
+<script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 0,
+        stretch: 0,
+        depth: 300,
+        modifier: 4,
+        slideShadows: true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+</body>
+</html>
