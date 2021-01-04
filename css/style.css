@@ -46,18 +46,19 @@ body{
    width: 100%;
 }
 
-header{
-    padding: 20px 20px;
-}
-
-header#hp{
+body.hpbody{
     background-image: url(../img/Hp-bg.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh; 
+    height: 120vh ;
 }
+header{
+    padding: 20px 20px;
+}
+
+
 
 img{
     display: block;
@@ -192,6 +193,7 @@ p span a{
     grid-column: 2/8;
     grid-row: 3/6;
     display: flex;
+    justify-content: center;
     align-items: center;
     position: relative;
     }
