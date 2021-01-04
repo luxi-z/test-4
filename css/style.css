@@ -178,7 +178,7 @@ p span a{
     padding-bottom: 75%; 
     height: 0;
     overflow: hidden;
-    
+    border-radius: 10px;
 }
 .map iframe {
     position: absolute;
