@@ -443,7 +443,7 @@ z-index: -10;
 
     25%{
         clip-path: polygon(100% 0, 100% 40%, 0 100%, 0 68%);
-        filter: hue-rotate(300deg) blur(3px);
+        filter: hue-rotate(130deg) blur(3px);
     }
 
     50%{
@@ -453,12 +453,12 @@ z-index: -10;
    
  75%{
     clip-path: polygon(100% 100%, 51% 100%, 0 0, 51% 0);
-    
+    filter: hue-rotate(260deg) blur(3px);
 }
 
 100%{
     clip-path: polygon(31% 100%, 0 100%, 55% 0, 100% 0);
-    
+    filter: hue-rotate(310deg) blur(3px);
 }
 } 
 
