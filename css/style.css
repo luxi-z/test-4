@@ -425,16 +425,16 @@ border-radius: 10px;
  border-radius: 10px;
  filter:  blur(3px);
 
-clip-path: polygon(48% 0, 0 0, 0 66%);
+z-index: -10;
 
 }
 
 .b-3::before{
-    animation-delay: -3s;
+    animation-delay: -2s;
 }
 .b-5::before{
     animation-delay: 1s;
-}
+} 
  @keyframes run{
     0%{
         clip-path: polygon(57% 0, 100% 0, 42% 100%, 0% 100%);
